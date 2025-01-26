@@ -1,0 +1,35 @@
+#apo-all {
+  flex-wrap: wrap;
+}
+
+.header1 {
+  text-align: center;
+}
+.h3-header {
+  padding: 1rem;
+}
+#first-flex-apo {
+  gap: 1rem;
+  padding: 1rem;
+}
+@media screen and (max-width: 600px) {
+  #first-flex-apo {
+    flex-wrap: wrap;
+  }
+}
+#text-second {
+  margin: 1rem;
+  border: rgb(234, 234, 234) solid;
+  padding: 1rem;
+  gap: 1rem;
+}
+@media screen and (max-width: 600px) {
+  #text-second {
+    flex-wrap: wrap;
+  }
+}
+.text-and-header3 {
+  text-align: center;
+  justify-content: center;
+  display: flex;
+}
